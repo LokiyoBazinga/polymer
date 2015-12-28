@@ -1,0 +1,21 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="tests-component">
+	<template>
+		<p>
+			Hola,<strong>{{who}}</strong>
+		</p>
+	</template>
+</dom-module>
+
+<script charset="utf-8">
+	Polymer({
+		is:'tests-component',
+		properties:{
+			who:{
+				type: String,
+				value: 'QuePedo'
+			}
+		}
+	});
+</script>
